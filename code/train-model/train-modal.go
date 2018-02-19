@@ -24,4 +24,5 @@ func main() {
 	body, _ := ioutil.ReadAll(res.Body)
 
 	fmt.Println("body: ", string(body))
+	fmt.Println("NEXT RUN: go build object-detection-sample-golang/code/model-state && ./model-state")
 }

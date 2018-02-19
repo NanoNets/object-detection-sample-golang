@@ -42,6 +42,8 @@ func main() {
 		file, err := os.Open(imageDirectory + fileName + ".jpg")
 		if err != nil {
 			fmt.Println("Image not found", err)
+		} else {
+			fmt.Println("Uploading Image", file.Name())
 		}
 
 		defer file.Close()
@@ -74,8 +76,7 @@ func main() {
 
 		defer res.Body.Close()
 		body2, _ := ioutil.ReadAll(res.Body)
-
-		fmt.Println(res)
-		fmt.Println(string(body2))
 	}
+
+	fmt.Println("NEXT RUN: go build object-detection-sample-golang/code/train-model && ./train-model")
 }

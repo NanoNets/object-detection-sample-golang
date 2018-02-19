@@ -31,4 +31,5 @@ func main() {
 	var model_id string
 	json.Unmarshal(*responseMap["model_id"], &model_id)
 	fmt.Println("NEXT RUN: 'export NANONETS_MODEL_ID=" + model_id + "'")
+	fmt.Println("THEN RUN: go build object-detection-sample-golang/code/upload-training && ./upload-training")
 }
