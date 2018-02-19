@@ -5,10 +5,10 @@
 </div>
 
 <h1 align="center">NanoNets Object Detection Golang Sample</h1>
-
++------------------+-------------------+-------------------+
 | [Golang Sample](https://github.com/NanoNets/object-detection-sample-golang) | [Python Sample](https://github.com/NanoNets/object-detection-sample-python)| [Node.js Sample](https://github.com/NanoNets/object-detection-sample-nodejs) |
-| <img src="https://golangwebapp.herokuapp.com/images/gopher.png" alt="Golang" style="width: 100px;"/> | <img src="http://www.kluren.com/images/technologies/python.png" alt="Python" style="width: 100px;"> |  <img src="https://pbs.twimg.com/profile_images/746038345902391296/0mkujVoG_normal.jpg" alt="Python" style="width: 100px;"> |
-
+| ![](https://www.hugopicado.com/assets/golang.png) | ![](http://kata.coderdojo.com/images/thumb/e/ea/Python_logo.png/100px-Python_logo.png) | ![](https://s3.amazonaws.com/openshift-hub/production/quickstarts/243/nodejs_custom.png?1456926624) |
++------------------+-------------------+-------------------+
 ** **
 
 ## Tracking the Millenium Falcon
