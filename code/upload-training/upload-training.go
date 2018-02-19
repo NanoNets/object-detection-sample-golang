@@ -17,8 +17,6 @@ func main() {
 	imageDirectory := "images/"
 	modelID := os.Getenv("NANONETS_MODEL_ID")
 	apiKey := os.Getenv("NANONETS_API_KEY")
-	fmt.Print("modelId: ", modelID, "\n")
-	fmt.Print("apiKey: ", apiKey, "\n")
 	fileList := []string{}
 	err := filepath.Walk(annotationsDirectory, func(path string, f os.FileInfo, err error) error {
 		if f.IsDir() || filepath.Ext(path) == ".DS_Store" {
@@ -76,7 +74,7 @@ func main() {
 
 		defer res.Body.Close()
 		body2, _ := ioutil.ReadAll(res.Body)
-		fmt.Print(res, body2)
+		fmt.Print(string(body2))
 	}
 
 	fmt.Println("\n\n\nNEXT RUN: go build object-detection-sample-golang/code/train-model && ./train-model")

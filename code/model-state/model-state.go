@@ -28,7 +28,6 @@ func main() {
 
 	var responseMap map[string]*json.RawMessage
 	json.Unmarshal(body, &responseMap)
-	fmt.Println(responseMap)
 
 	var state int
 	var status string
