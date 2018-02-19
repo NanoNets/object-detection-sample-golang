@@ -27,12 +27,13 @@ export NANONETS_API_KEY=YOUR_API_KEY_GOES_HERE
 ```bash
 go build object-detection-sample-golang/code/create-model && ./create-model
 ```
+ >_**Note:** This generates a MODEL_ID that you need for the next step
 
 ### Step 5: Add Model Id as Environment Variable
 ```bash
 export NANONETS_MODEL_ID=YOUR_MODEL_ID
 ```
- **you will get YOUR_MODEL_ID from the previous step**
+ >_**Note:** you will get YOUR_MODEL_ID from the previous step
 
 ### Step 6: Upload the Training Data
 The training data is found in images (image files) and annotations (annotations for the files)
