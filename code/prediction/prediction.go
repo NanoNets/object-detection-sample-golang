@@ -28,13 +28,13 @@ func main() {
 	body := &bytes.Buffer{}
 	writer := multipart.NewWriter(body)
 
-	part, err := writer.CreateFormFile("file", filepath.Base("REPLACE_IMAGE_PATH.jpg"))
+	part, err := writer.CreateFormFile("file", filepath.Base(imagePath))
 	if err != nil {
 		return
 	}
 	_, err = io.Copy(part, file)
 
-	writer.WriteField("modelId", "REPLACE_MODEL_ID")
+	writer.WriteField("modelId", modelId)
 
 	contentType := writer.FormDataContentType()
 
