@@ -12,7 +12,8 @@ Annotations are present for each frame and have the same name as the image name.
 ```bash
 cd $GOPATH/src
 git clone https://github.com/NanoNets/object-detection-sample-golang.git
-cd object-detection-sample-golang```
+cd object-detection-sample-golang
+```
 
 ### Step 2: Get your API Key
 Get your APIK Key from http://app.nanonets.com/user/api_key
