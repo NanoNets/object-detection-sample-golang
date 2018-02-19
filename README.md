@@ -16,7 +16,7 @@ cd object-detection-sample-golang
 ```
 
 ### Step 2: Get your API Key
-Get your APIK Key from http://app.nanonets.com/user/api_key
+Get your API Key from http://app.nanonets.com/user/api_key
 
 ### Step 3: Set the API key as an Environment Variable
 ```bash
