@@ -55,7 +55,7 @@ The model takes approximately an hour to train. You will get an email once the m
 go build object-detection-sample-golang/code/model-state && ./model-state
 ```
 
-### Step 9 Make Prediction
+### Step 9: Make Prediction
 Once the model is trained. You can make predictions using the model
 ```bash
 go build object-detection-sample-golang/code/prediction
