@@ -35,7 +35,7 @@ func main() {
 	json.Unmarshal(*responseMap["status"], &status)
 	fmt.Println("state: ", state, "status: ", status)
 	if state != 5 {
-		fmt.Println("model isn't ready yet, it's status is:", status)
+		fmt.Println("The model isn't ready yet, it's status is:", status)
 		fmt.Println("We will send you an email when the model is ready. If your imapatient, run this script again in 10 minutes to check.")
 	} else {
 		fmt.Println("NEXT RUN: go build object-detection-sample-golang/code/prediction && ./prediction ./images/videoplayback0051.jpg")

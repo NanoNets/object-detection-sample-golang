@@ -1,13 +1,12 @@
-<h1 align="center">NanoNets Object Detection Golang Sample</h1>
-
 <div align="center">
   <a href="https://nanonets.com/objectdetection/">
     <img src="https://nanonets.com/logo.png" alt="NanoNets Object Detection Golang Sample" width="100"/>
     </a>
 </div>
 
+<h1 align="center">NanoNets Object Detection Golang Sample</h1>
 
-# Code Samples for Object Detection Project Written in Golang
+## Tracking the Millenium Falcon
 
 Images and annotations taken from - https://github.com/bourdakos1/Custom-Object-Detection
 
