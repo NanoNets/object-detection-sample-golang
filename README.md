@@ -8,6 +8,7 @@ Images consists of frames taken from a clip from Star Wars: The Force Awakens.
 Annotations are present for each frame and have the same name as the image name. You can find the example to train a model in golang and node, by updating the api-key and model id in corresponding file. There is also a pre-processed json annotations folder that are ready payload for nanonets api, the script used is node/xml-to-json.js .
 
 
+<<<<<<< HEAD
 # Step 1 Clone the Repo
 `cd $GOPATH/src`
 `git clone https://github.com/NanoNets/object-detection-sample-golang.git`
