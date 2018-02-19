@@ -2,9 +2,8 @@
 
 <div align="center">
   <a href="https://nanonets.com/objectdetection/">
-    <img src="https://nanonets.com/logo.png" alt="NanoNets Object Detection Golang Sample" width="400"/>
+    <img src="https://nanonets.com/logo.png" alt="NanoNets Object Detection Golang Sample" width="200"/>
     </a>
-  <br>
 </div>
 
 
@@ -17,9 +16,9 @@ Images consists of frames taken from a clip from Star Wars: The Force Awakens.
 
 Annotations are present for each frame and have the same name as the image name. You can find the example to train a model in golang and node, by updating the api-key and model id in corresponding file. There is also a pre-processed json annotations folder that are ready payload for nanonets api, the script used is node/xml-to-json.js .
 
-** **
+* *
 
-# Build an Object Detector for the Millenium Falcon and TieFighter
+# Build an Object Detector for the Millenium Falcon
 
 >**Note:** Make sure you have go installed on your system if you don't. Install it from: https://golang.org/doc/install
  
