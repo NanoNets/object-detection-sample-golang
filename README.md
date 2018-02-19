@@ -7,7 +7,7 @@
 <h1 align="center">NanoNets Object Detection Golang Sample</h1>
 
 | [Golang Sample](https://github.com/NanoNets/object-detection-sample-golang) | [Python Sample](https://github.com/NanoNets/object-detection-sample-python)| [Node.js Sample](https://github.com/NanoNets/object-detection-sample-nodejs) |
-| ![alt text](https://golangwebapp.herokuapp.com/images/gopher.png =50x) | ![alt text](http://www.kluren.com/images/technologies/python.png =50x) | ![alt text](https://pbs.twimg.com/profile_images/746038345902391296/0mkujVoG_normal.jpg =50x) |
+| <img src="https://golangwebapp.herokuapp.com/images/gopher.png" alt="Golang" style="width: 100px;"/> | <img src="http://www.kluren.com/images/technologies/python.png" alt="Python" style="width: 100px;"> |  <img src="https://pbs.twimg.com/profile_images/746038345902391296/0mkujVoG_normal.jpg" alt="Python" style="width: 100px;"> |
 
 ** **
 
