@@ -76,7 +76,8 @@ func main() {
 
 		defer res.Body.Close()
 		body2, _ := ioutil.ReadAll(res.Body)
+		fmt.Print(res, body2)
 	}
 
-	fmt.Println("NEXT RUN: go build object-detection-sample-golang/code/train-model && ./train-model")
+	fmt.Println("\n\n\nNEXT RUN: go build object-detection-sample-golang/code/train-model && ./train-model")
 }
