@@ -6,6 +6,9 @@
 
 <h1 align="center">NanoNets Object Detection Golang Sample</h1>
 
+| [Golang Sample](https://www.google.com) | [Python Sample](https://www.google.com)| [Node.js Sample](https://www.google.com) |
+| ![alt text](https://blog.golang.org/gopher/gopher.png "Golang") | ![alt text](https://blog.golang.org/gopher/gopher.png "Golang") | ![alt text](https://blog.golang.org/gopher/gopher.png "Golang") |
+
 ** **
 
 ## Tracking the Millenium Falcon
